@@ -2,9 +2,9 @@
 
 {
   networking = {
-	hostName = "nixos-personal";
+	hostName = "ANIMO-LAPTOP";
 	networkmanager.enable = true;
-	enableIPv6 = false;
-	firewall.enable = false;
+	enableIPv6 = true;
+	firewall.enable = true;
   };
 }

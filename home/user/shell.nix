@@ -1,8 +1,6 @@
 { config, pkgs, ... }:
 let 
   myAliases = {
-    docker-compose = "podman-compose";
-    cat = "bat";
     ls = "eza --icons=always";
 
     fullClean = '' 
