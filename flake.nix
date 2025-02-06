@@ -1,6 +1,4 @@
 {
-    description = "gpskwlkr NixOS";
-
     inputs = {
 	    nixpkgs.url = "github:NixOS/nixpkgs/nixos-23.11";
         nixpkgs-unstable.url = "nixpkgs/nixos-unstable";
